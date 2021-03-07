@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="setterDI" class="org.springframework.service.DI.SettingDI">
+        <property name="age" value="20"/>
+        <property name="number" value="200"/>
+        <property name="toDoListService" ref="toDo"/>
+        <property name="userService" ref="user"/>
+    </bean>
+
+    <bean id="setterStatic" class="org.springframework.service.DI.SettingDI" factory-method="createSettingInstance">
+        <constructor-arg type="int" value="20"/>
+    </bean>
+</beans>

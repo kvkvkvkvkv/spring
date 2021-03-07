@@ -1,0 +1,19 @@
+
+L
+java:S1874("0Remove this use of "Required"; it is deprecated.(çüÙQ8šúØ¹ş.
+_
+java:S1128"BRemove this unused import 'org.springframework.models.Department'.(ÃÀ›¾8”æ–¹ş.
+y
+java:S1450"WRemove the "toDoList" field and declare it as a local variable in the relevant methods.(ÑÅµÍüÿÿÿÿ8í‘¸ş.
+N
+java:S1068",Remove this unused "toDoList" private field.(ÑÅµÍüÿÿÿÿ8šúØ¹ş.
+O
+java:S1068"2Remove this unused "projectService" private field.(Úè±ü8šúØ¹ş.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(î®ù¦
+P
+java:S1068"3Remove this unused "toDoListService" private field.(ÓŠì8šúØ¹ş.
+N
+java:S1068",Remove this unused "employee" private field.(ô› şÿÿÿÿ8šúØ¹ş.
+g
+java:S1128
+"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8¹êÜÁş.

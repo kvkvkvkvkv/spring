@@ -1,0 +1,10 @@
+package org.springframework.service.Configs;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+
+@Configuration
+@ComponentScan("org.springframework.")
+public class AnnotationConfig {
+}

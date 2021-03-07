@@ -1,0 +1,6 @@
+
+ƒ
+java:S4165&"aRemove this useless assignment; "age" already holds the assigned value along all execution paths.(ú­³Ìúÿÿÿÿ8ú¶Åü.
+u
+java:S1192"SDefine a constant instead of duplicating this literal "inside constructor" 3 times.(—¿ÄÉúÿÿÿÿ8úŸÆŸü.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”éù¨ÿÿÿÿÿ

@@ -1,0 +1,8 @@
+
+o
+java:S1128"RRemove this unused import 'org.springframework.context.annotation.PropertySource'.(™Άι8§σέ€/
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Ϊδώÿÿÿÿ8§σέ€/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†Πίτώÿÿÿÿ8•»Βΐ€/
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(ήχΡΈÿÿÿÿÿ8¬™Ζ°€/

@@ -1,0 +1,10 @@
+
+X
+java:S1128";Remove this unused import 'javax.annotation.PostConstruct'.(›ÅÁ8ø†Ì°€/
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8İ¹Ğ°€/
+o
+java:S1128"RRemove this unused import 'org.springframework.beans.factory.annotation.Required'.(‘™ê¢8İ¹Ğ°€/
+Z
+java:S1128"8Remove this unused import 'javax.annotation.PreDestroy'.(ˆÇÜÆüÿÿÿÿ8ø†Ì°€/
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†Ğßôşÿÿÿÿ8¶ÅÂÀ€/

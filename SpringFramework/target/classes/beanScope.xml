@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--adding other xml files can do for same project or multiple project-->
+    <import resource="application1.xml"/>
+    <import resource="beanInstanceTypes.xml"/>
+    <import resource="constructorDi.xml"/>
+    <import resource="setterDi.xml"/>
+    <import resource="lazyInit.xml"/>
+    <import resource="autowiring.xml"/>
+
+
+    <bean id="user" class="org.springframework.service.UserService">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+</beans>

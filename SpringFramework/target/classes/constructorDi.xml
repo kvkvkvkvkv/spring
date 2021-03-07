@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="constructorDI" class="org.springframework.service.DI.ConstructorDI">
+        <constructor-arg type="int" value="20"/>
+        <constructor-arg ref="toDo"/>
+        <constructor-arg ref="user"/>
+    </bean>
+
+    <bean id="constructorType" class="org.springframework.service.DI.ConstructorDI">
+        <constructor-arg type="int" value="2000"/>
+        <constructor-arg type="int" value="4000"/>
+<!--        <constructor-arg type="String" value="wef"/>-->
+    </bean>
+
+    <bean id="constructorIndex" class="org.springframework.service.DI.ConstructorDI">
+        <constructor-arg index="0" value="2"/>
+        <constructor-arg index="1" value="3"/>
+    </bean>
+
+    <bean id="constructorName" class="org.springframework.service.DI.ConstructorDI">
+        <constructor-arg name="age" value="20"/>
+        <constructor-arg name="number" value="30"/>
+    </bean>
+
+    <bean id="constructorProperty" class="org.springframework.service.DI.ConstructorDI">
+        <constructor-arg name="test" value="200"/>
+    </bean>
+</beans>

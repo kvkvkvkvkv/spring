@@ -1,0 +1,9 @@
+
+M
+java:S1874$"0Remove this use of "Required"; it is deprecated.(ù”Ðü8è×º‘€/
+N
+java:S1068",Remove this unused "fortune3" private field.(Ž‚˜Œøÿÿÿÿ8ø¬Ó‘€/
+W	java:S125="<This block of commented-out lines of code should be removed.(ûˆ¨8°‰œ°ÿ.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†Ðßôþÿÿÿÿ8ˆÆÂÀ€/
+y
+java:S1450"WRemove the "fortune3" field and declare it as a local variable in the relevant methods.(Ž‚˜Œøÿÿÿÿ8ø¬Ó‘€/

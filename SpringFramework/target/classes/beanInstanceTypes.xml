@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <!--constructor instance-->
+    <bean id="toDo" class="org.springframework.service.ToDoListService">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <!--static factory construction-->
+    <bean id="staticFactory" class="org.springframework.service.InstanceBean" factory-method="createStaticInstance"/>
+
+
+    <!--requires constructor then instance factory called-->
+    <bean id="beanFactory" class="org.springframework.service.InstanceBean"/>
+    <bean id="instanceFactory" factory-bean="beanFactory" factory-method="createInstance"/>
+
+</beans>

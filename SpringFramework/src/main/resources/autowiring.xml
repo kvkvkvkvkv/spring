@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userAuto" class="org.springframework.service.UserService">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+    <bean id="userService" class="org.springframework.service.UserService">
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+
+<!--    uses ref from userAuto-->
+    <bean id="autowireNo" class="org.springframework.service.AutowiringModes" autowire="no">
+        <constructor-arg ref="userAuto"/>
+    </bean>
+
+<!--    searches for the same type bean as specified in class, prop and bean name is different internally calls setter method-->
+<!--    <bean id="autowireType" class="org.springframework.service.AutowiringModes" autowire="byType"/>-->
+
+<!--    setter injection checks the name matches the value must have same prop and bean name-->
+    <bean id="autowireName" class="org.springframework.service.AutowiringModes" autowire="byName"/>
+
+<!--    calls constructor with largest param, check prop name-->
+    <bean id="autowireCons" class="org.springframework.service.AutowiringModes" autowire="constructor"/>
+
+</beans>
